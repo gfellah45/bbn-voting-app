@@ -1,0 +1,80 @@
+body {
+  position: relative;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: -10;
+}
+
+.background .one {
+  background-image: url("/images/first.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+}
+
+.background .two {
+  background-image: url("/images/second.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+}
+
+.background .three {
+  background-image: url("/images/third.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+}
+
+.background .four {
+  background-image: url("/images/fourth.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.show {
+  display: none;
+  transition: all 2s linear 1s;
+}
+
+.user_selected {
+  height: 1px;
+}
+
+.show1 {
+  display: none;
+  transition: all 2s linear 1s;
+}
+/*# sourceMappingURL=styles.css.map */
